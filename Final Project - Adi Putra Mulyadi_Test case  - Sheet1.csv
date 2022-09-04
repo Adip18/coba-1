@@ -1,0 +1,207 @@
+,Summary,Action Step,Expected Result,Tester,Test Date,Test Result,Notes
+Login,,,,,,,
+,Admin input correct Adminname and password,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Input correct Adminname
+3. Input correct pasword
+4. Click button Login","1. Succes Login
+2. Direct to menu PIM with tab Employee List
+3. Show field employee
+4. Show list of employee",Adi,04 September 2022,Passed,https://drive.google.com/file/d/1XdcQsdhMACD8CzEWfBuY0I1hAWE4PIgw/view
+,Admin input incorrect  Adminname and incorrect password,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Input incorrect Adminname
+3. Input incorrect pasword
+4. Click button Login","1. Failed to login
+2. Show ticker error with text ""Invalid credentials"" and  icon info (i)",Adi,04 September 2022,Passed,https://drive.google.com/file/d/1_mQc2DBTJkldsVlZQnsdrit9tepJVlZK/view
+,Admin can change password ,"1. Open https://opensource-demo.orangehrmlive.com/
+2. CLick CTA Forgot Your Password on login page
+3. Input new Adminname
+4. Click button Reset Password",1. Direct to Pop-up succesfully reset password,Adi,04 September 2022,Passed,https://drive.google.com/file/d/1NryYTNBxlu25tKrOxCCwH_gEd_ltGTiQ/view
+,,,,,,,
+,,,,,,,
+Menu PIM,,,,,,,
+,Admin can acces Menu PIM,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM",1. direct to Menu PIM,Adi,04 September 2022,Passed,https://prnt.sc/M-x8T9opAWVE
+,Amin can click dropdown on tab COnfiguration,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+4. CLick Menu dropdown on tab Configuration","1. showing dropdorn menu with detail:
+- optional fields 
+- custom filed
+- Data 
+- Reporting",Adi,04 September 2022,Passed,https://prnt.sc/07oHUJWf_oyN
+,Admin can click tab Add Employee,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+4. Click tab Add Eployee","1. Direct to Add employe pae
+2. Showin field new employee",Adi,04 September 2022,Passed,https://prnt.sc/-kVkoVNiIDi8
+,Admin can click tab Reports,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+4. Click tab Reports",1. Direct to tab repors,Adi,04 September 2022,Passed,https://prnt.sc/3PzRFinid1n_
+,Admin can filter Employee Information,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+4. Set filter on menu PIM on Filter employee information",1. Shwoing data employee based on filter set by admin,Adi,04 September 2022,Passed,https://prnt.sc/OcG0l-9Gg6eH
+,Admin can see list of employee,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+","1. Showing data employee with detail::
+- ID
+- First name
+- Last name
+- Title
+- Employee status
+- Sub unit
+- Supervisor
+- action",Adi,04 September 2022,Passed,https://prnt.sc/wwCwICiiFcET
+,Admin can delete employee,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+4. Click icon trash (delete) on list of employee","- Succes delete employee
+- deleted employee will be disappear from list of employee",Adi,04 September 2022,Passed,https://drive.google.com/file/d/149NM7Lkc8FliMr2GE_AuaSRmyz2Qd2LM/view
+,Admin can edit data employee,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu PIM
+4. Click icon pencil(edit) on list of employee","- Succes edit data employee
+- Data employee updated accordin new edited",Adi,04 September 2022,Passed,https://drive.google.com/file/d/149NM7Lkc8FliMr2GE_AuaSRmyz2Qd2LM/view
+,,,,,,,
+Menu Admin,,,,,,,
+,Admin can acces menu admin,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Admin",1. direct to Menu Admin,Adi,04 September 2022,Passed,https://prnt.sc/C6gIUoWAe_9U
+,Admin can filter User,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Admin
+4. Set Filter on System User",1. Shwoing data Admin based on filter set by admin,Adi,04 September 2022,Passed,https://prnt.sc/OT-Zk3DDq_uA
+,Admin can add new admin,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Admin
+4. Click button +Add","1. Succes add new admin
+2. New admin added will be appear on list of admin",Adi,04 September 2022,Passed,
+,Admin can see list of admin,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Admin
+4. See list of Admin","1. Showing data admin with detail:
+- Username
+- User role
+- Employee name
+- status
+- Action",Adi,04 September 2022,Passed,https://prnt.sc/C3d1BLLRgWMC
+Menu Leave,,,,,,,
+,Admin can acces Menu leave,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Leave",1. direct to Menu Admin,Adi,04 September 2022,Passed,https://prnt.sc/Fiq733xTAImc
+,admin can filter leave,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Leave
+4. Set filter on leave list",1. Showing data Leave based on filter set by admin,Adi,04 September 2022,Passed,https://prnt.sc/ZpRXi0Pz0Un1
+,admin can see list of leave,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Leave
+4. See list of leave","1. Showing data leave user, with detail:
+- Date 
+- Employee name
+- Leave type
+- leave balance
+- Number of days
+- Status
+- Comment 
+- Action",Adi,04 September 2022,Passed,
+,admin can accept leave user,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Leave
+4. Click button Approve on list leave ","1. Leave succesfully updates
+2. Showing toaster succes ""Succes""
+3. Leave approved will be disappear from list of leave",Adi,04 September 2022,Passed,
+,admin can reject leave user,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Leave
+4. Click button Reject on list leave ","1. Leave succesfully updates
+2. Showing toaster succes ""Succes""
+3. Leave rejected will be disappear from list of leave",Adi,04 September 2022,Passed,
+,,,,,,,
+Menu Time,,,,,,,
+,Admin cas acces menu Time,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Time",1. direct to Menu Admin,Adi,04 September 2022,Passed,https://prnt.sc/rXEX3eQVdptX
+,Admin can fillter time of employee,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Time
+4. Set filter  on select employee",1. Showing data time based on filter set by admin,Adi,04 September 2022,Passed,
+,Admin can see pending time user,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Time
+4. Scrool down to see list of time pending user",1. Showingg list of pending time user,Adi,04 September 2022,Passed,
+,Admin can see detail pending time user,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Time
+4. Scrool down to see list of time pending user
+5. Click buton view",1. Direct to detail pendig user,,,,
+Menu Recruitment,,,,,,,
+,Admin can acces menu recruitment,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Recruitment",1. direct to Menu Admin,Adi,04 September 2022,Passed,
+,Admin can fillter candidates,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Recruitment
+4. Set filter on candidates",1. Showing data recruitment based on filter set by admin,Adi,04 September 2022,Passed,
+,Admin can add new candidates,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Recruitment
+4. Click button +Add","1. Succes add new candidates
+2. New candidates added will be appear on list of candidats",Adi,04 September 2022,Passed,
+,Admin can see list of candidates,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Rcruitment
+4. See list of candidates
+",1. Showin list of candidates,Adi,04 September 2022,Passed,
+,Admin can see detail of candidates,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Recruitment
+4. CLick button eye on list of candidates",1. Direct to detail profil candidates,Adi,04 September 2022,Passed,
+,Admin can delete candidates,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Recruitment
+4. CLick button delete on list of candidates","1. Succes delete selected candidates
+2. Deleted candidates will be disappear from list of candidates",Adi,04 September 2022,Passed,
+,,,,,,,
+Menu MyInfo,,,,,,,
+,Admin can acces menu MyInfo,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu MyInfo",1. direct to Menu Admin,Adi,04 September 2022,Passed,
+,Admin can edit Info,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu MyInfo
+4. Edit info","1. Succes edit info
+2. Data info will be updated based on new data",Adi,04 September 2022,Passed,
+,Admin can download profile user ,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu MyInfo
+4. Click icon save on info profil ",1. Succes download data ,Adi,04 September 2022,Passed,
+Menu Peroformance,,,,,,,
+,Admin can acces menu Performance,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Performance",1. direct to Menu Performances,Adi,04 September 2022,Passed,
+,Admin can filter employee reviews,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Performance
+4. Set filter employee reviews",1. Showing data Performances based on filter set by admin,Adi,04 September 2022,Passed,
+Menu Directory,,,,,,,
+,Admin can acces Menu dorectory,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Performance",1. direct to Menu Directori,Adi,04 September 2022,Passed,
+,Admin can filter directory,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Performance
+4. Set filter directory",1. Showing data directory based on filter set by admin,Adi,04 September 2022,Passed,
+,Admin can see list of profil user on menu directory,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Performance
+4. See list of directory",1. Shwoing list of diredtory,Adi,04 September 2022,Passed,
+,Admin can click user selected,"1. Open https://opensource-demo.orangehrmlive.com/
+2. Login
+3. CLick Menu Performance
+4. Click on profil user",1. Showing detail profil,Adi,04 September 2022,Passed,
+,,,,,,,
+Buzz,,,,,,,
